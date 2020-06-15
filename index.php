@@ -46,7 +46,7 @@ echo '<br>';
 echo gettype($name);
 echo '<br>';
 echo gettype($isDog);
-
+echo '<br>';
 
 echo '<br>';
 echo var_dump($price);
@@ -56,6 +56,28 @@ echo '<br>';
 echo var_dump($name);
 echo '<br>';
 echo var_dump($isDog);
+
+
+//Concatenacio
+
+echo '<br>';
+$word1='Codigo';
+$word2=' Facilito';
+
+echo 'Bienvenidos a '.$word1.$word2;
+
+//Buscar y extraer:
+echo '<br>';
+echo substr('Marines Méndez',8);
+
+echo '<br>';
+$text='Bienvenidos al curso de programacion php';
+$b='curso';
+
+echo strpos($text,$b);
+
+
+
 
 
 ?>
